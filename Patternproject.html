@@ -1,0 +1,89 @@
+<html>
+	<head>
+		<title>Pattern project</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!-- Including only line of css.Hence I am not making a separate stylesheet -->
+		<style>
+			#header {
+				/*if you want to center the image,put center:center and if you want the image to not repeat then use the cover property.Set cover to no-repeat*/
+				background:url("https://www.bing.com/images/search?view=detailV2&ccid=6dwhjGXp&id=FA2F2924F9EE8A612632777858659051CD34E79B&thid=OIP.6dwhjGXppzzSL6dqMln3ZQHaHa&mediaurl=https%3a%2f%2fi.etsystatic.com%2f5934296%2fr%2fil%2fd40c6f%2f861306393%2fil_570xN.861306393_1uff.jpg&exph=570&expw=570&q=gray+bricks+stacked+together+images&simid=607997326701039101&selectedIndex=2&ajaxhist=0");
+			}
+		</style>
+	</head>
+	<body>
+		<!-- create a navbar with a black bg and white text(name is bit ugly-navbar-dark for white text)-->
+		<nav class="navbar bg-dark navbar-dark">
+		<div class="container">
+			<!-- Add navbar brand -->
+			<!-- Adding mr will introduce a margin to the right of the image -->
+		    <a href="" class="navbar-brand"><i class="fas fa-binoculars mr-3"></i>PATTERN</a>
+		</div>
+	</nav>
+
+
+    <!-- By giving section id,we just have a nice reference/knowledge of what we are working on -->
+    <section id="header" class="jumbotron text-center">
+    	<h1 class="display-3">PATTERN</h1>
+    	<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    	<a href="#" class="btn btn-primary">Do Something</a>
+    	<a href="#" class="btn btn-success">Do Another Thing</a>
+    	
+    	
+    </section>
+    <section id="gallery">
+    	<div class="container">
+    		<!-- card class creates a 4 side border with little spacing around. -->
+    		<!-- There are 3 cards in a single grid.Each one will occupy 4 units each. -->
+    <div class="row">
+        <!-- mb will introduce margin at the bottom.So that when you collapse your card and they are vertically stacked then there is a margin between them -->
+    	 <div class="col-lg-4 mb-4">
+    		<div class="card">
+    			<!-- card-img-top puts image at the top of the card -->
+    			<img class="card-img-top" src="https://www.bing.com/images/search?view=detailV2&ccid=7rJlo5nC&id=A863D5ED2D1CF85EBFBA5D22D709E674D0ECB07A&thid=OIP.7rJlo5nCvPCCCe9nv5b32gHaHa&mediaurl=https%3A%2F%2Fwww.tezmarble.com%2Fwp-content%2Fuploads%2F2017%2F03%2FCoal-Canyon-Natural-Stacked-Stone-Veneers.jpg&exph=1200&expw=1200&q=gray+bricks+stacked+together+images&simid=607989256464829143&selectedindex=3&ajaxhist=0&vt=0&sim=11" alt="">
+    			<div class="card-body">
+    				<h5 class="card-title">First Thing</h5>
+    				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+    				<a href="" class="btn btn-outline-success btn-sm">Download</a>
+    				<a href="" class="btn btn-outline-danger"><i class="far fa-heart"></i></a>
+    				
+    			</div>
+    		</div>
+            <!-- For second image -->
+    		 <div class="col-lg-4 mb-4">
+    		<div class="card">
+    			<!-- card-img-top puts image at the top of the card -->
+    			<img class="card-img-top" src="https://www.bing.com/images/search?view=detailV2&ccid=7rJlo5nC&id=A863D5ED2D1CF85EBFBA5D22D709E674D0ECB07A&thid=OIP.7rJlo5nCvPCCCe9nv5b32gHaHa&mediaurl=https%3A%2F%2Fwww.tezmarble.com%2Fwp-content%2Fuploads%2F2017%2F03%2FCoal-Canyon-Natural-Stacked-Stone-Veneers.jpg&exph=1200&expw=1200&q=gray+bricks+stacked+together+images&simid=607989256464829143&selectedindex=3&ajaxhist=0&vt=0&sim=11" alt="">
+    			<div class="card-body">
+    				<h5 class="card-title">First Thing</h5>
+    				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+    				<a href="" class="btn btn-outline-success btn-sm">Download</a>
+    				<a href="" class="btn btn-outline-danger"><i class="far fa-heart"></i></a>
+    				
+    			</div>
+    		</div>
+    	</div>
+
+    	<!-- For Third Image -->
+    	 <div class="col-md-4 mb-4">
+    		<div class="card">
+    			<!-- card-img-top puts image at the top of the card -->
+    			<img class="card-img-top" src="https://www.bing.com/images/search?view=detailV2&ccid=7rJlo5nC&id=A863D5ED2D1CF85EBFBA5D22D709E674D0ECB07A&thid=OIP.7rJlo5nCvPCCCe9nv5b32gHaHa&mediaurl=https%3A%2F%2Fwww.tezmarble.com%2Fwp-content%2Fuploads%2F2017%2F03%2FCoal-Canyon-Natural-Stacked-Stone-Veneers.jpg&exph=1200&expw=1200&q=gray+bricks+stacked+together+images&simid=607989256464829143&selectedindex=3&ajaxhist=0&vt=0&sim=11" alt="">
+    			<div class="card-body">
+    				<h5 class="card-title">First Thing</h5>
+    				<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipis.</p>
+    				<a href="" class="btn btn-outline-success btn-sm">Download</a>
+    				<a href="" class="btn btn-outline-danger"><i class="far fa-heart"></i></a>
+    				
+    			</div>
+    		</div>
+    	</div>
+    	</div>
+    	</div>
+    </div>
+    </section>
+	    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>	
+	</body>
+</html>
